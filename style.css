@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Leather Notebooks | الفخامة في كل تفصيلة</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- استدعاء المكتبات -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+<body>
+
+    <!-- حاوية الـ 3D -->
+    <div id="canvas-container"></div>
+
+    <!-- المحتوى النصي -->
+    <div class="hero-content">
+        <h1 class="title">Premium Leather Notebooks</h1>
+        <p class="subtitle">الفخامة في كل تفصيلة.. صُنعت لتبقى</p>
+        <a href="#" class="cta-button">اكتشف المجموعة</a>
+    </div>
+
+    <!-- طبقة الإضاءة/التعتيم عشان النص يبان -->
+    <div class="overlay"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
